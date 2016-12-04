@@ -7,7 +7,7 @@ clone the repo and run `npm start`
 Note: double check node-modules folder and package.json to make sure all packages have been installed. 
 
 
-# Dear Fiftythree,
+# Dear Fiftythree :
 
 I had fun engaging in this challenge and while at points I was a little stressed about time and getting the minor functionality to work,
 I enjoyed thinking through the flow of components and how to get rid of the modals! 
