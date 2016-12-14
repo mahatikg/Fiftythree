@@ -49,7 +49,8 @@ class ModalA extends React.Component {
             <div>
               <div style={ styles.screen }>
                   <div style={ styles.modal_card }>
-                      <h2>A former Archaeological Art Historian who looks forward to integrating Art, Design, and Code in a creative and functional manner!</h2>
+                      <{this.props.data?}
+                      // the function gets passed down from the button and for each button the function is the same but the content of the function is slightly different
                       <button onClick={this.props.eraseModal}>X</button>
                   </div>
               </div>
