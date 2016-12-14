@@ -13,7 +13,7 @@ class App extends React.Component {
     this.state = { isModalAdisplayed: false }
     this.state = {isModalBdisplayed: false}
     this.flipStateA = this.flipStateA.bind(this)
-    this.flipStateB = this.flipStateB.bind(this)
+    // this.flipStateB = this.flipStateB.bind(this)
     this.eraseModal = this.eraseModal.bind(this)
     this.displayModalA = this.displayModalA.bind(this)
     this.displayModalB = this.displayModalB.bind(this)
@@ -25,14 +25,14 @@ class App extends React.Component {
     console.log('you are inside FLIPSTATE', this.state)
   }
 
-  displayModalA(e){
-    if (this.state.isModalAdisplayed == true){
-      console.log('inside display modal', this.state)
-    return(
-        <ModalA eraseModal={this.eraseModal}/>
-      )
-    }
-  }
+  // displayModalA(e){
+  //   if (this.state.isModalAdisplayed == true){
+  //     console.log('inside display modal', this.state)
+  //   return(
+  //       <ModalA eraseModal={this.eraseModal}/>
+  //     )
+  //   }
+  // }
 
   flipStateB(event){
     event.preventDefault
@@ -63,7 +63,7 @@ class App extends React.Component {
 
           <div className='root'>
               <NavBar />
-              
+
               <ButtonA flipStateA={this.flipStateA} displayModalA={this.displayModalA}/>
 
               <br></br>
